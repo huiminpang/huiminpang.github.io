@@ -1,0 +1,32 @@
+{
+	"Entites":
+	[
+		{
+			"name": "Party1",
+			"EntityType": "Interface",
+			"field1": "Text",
+			"EntityGroupName": "Party1"
+
+		},
+		{
+			"name": "Party2",
+			"EntityType": "Interface",
+			"field1": "Integer",
+			"EntityGroupName": "Party2"
+		},
+		{
+			"name": "Individual",
+			"EntityType": "Concretentity",
+			"field1": "Integer",
+			"EntityGroupName": "Party1"
+		},
+
+		{
+			"name": "Organization",
+			"EntityType": "Concretentity",
+			"field1": "Integer",
+			"EntityGroupName": "Party2"
+		}
+	]
+	
+}
